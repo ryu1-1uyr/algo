@@ -1,10 +1,8 @@
 import java.util.*;
 
 public class main{
-  public static void main(String[] args) {
-      System.out.println("フィールドの大きさを入力してください(要int型)");
-	  int nums = new java.util.Scanner(System.in).nextInt();
 
+    static void q17(int nums){
       for(int i=1;i<=nums;i++){
 
           String line = "";
@@ -19,6 +17,16 @@ public class main{
 
           System.out.println(line);
       }
+
+
+
+    }
+
+  public static void main(String[] args) {
+      System.out.println("フィールドの大きさを入力してください(要int型)");
+	  int nums = new java.util.Scanner(System.in).nextInt();
+
+      q17(nums);
 
   }
 }
